@@ -1,39 +1,19 @@
-
-//Ripple Carry Counter
+//Positive edge-triggered and asynchronous active low reset D flip flop
 
 module day1(
-	output [3:0] q,
-	input clk, reset
-	);
-	
-T_FF tff0(q[0],clk, reset);
-T_FF	 tff1(q[1], q[0], reset);
-T_FF	 tff2(q[2], q[1], reset);
-T_FF	 tff3(q[3], q[2], reset);
+input d, clk , reset,
+output reg q
+);
 
-endmodule
-
-module T_FF(
-	output q,
-	input clk,reset
-	);
-	
-	wire d;
-	
-	D_FF dff0(q,d, clk, reset);
-	not n1(d,q);
-	
-endmodule
-
-module D_FF(
-	output reg q,
-	input d, clk, reset
-	);
-	
-	always @(posedge reset or negedge clk)
-	if(reset)
-	q <= 1'b0;
+always @(posedge clk or negedge reset)
+begin
+	if(~reset)
+		q<=0;
+		
 	else
-	q <= d;
-	
+		q<=d;
+		
+		end
 endmodule
+		
+	

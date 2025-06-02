@@ -1,0 +1,20 @@
+# Day 1 - Half Adder
+
+## 📘 Description
+This module implements a Verilog-based design for **Half Adder**. It forms a key part of combinational logic understanding and is commonly used in digital circuit design.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim 
+
+## ✅ Functional Description
+This design covers the expected logical behavior of a **Half Adder** in hardware.
+
+## 🧪 Testing
+Testbench created to verify all input combinations and edge cases for `Half Adder`.
+Ensure:
+- Functional correctness
+- Valid waveform generation (optional)
+
+## 💬 Notes
+This design is part of the `30DaysOfRTL` Verilog series.  

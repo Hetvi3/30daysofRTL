@@ -1,7 +1,7 @@
-/* 
+
 //Synchronous SR flipflop
 
-module day13(
+module day12(
 input s,r,
 input reset,
 input clk,
@@ -24,10 +24,9 @@ always @(posedge clk)
 	
 	assign q_bar=~q;
 endmodule
-*/
 
 //Asynchronous SR flipflop
-module day13(
+module day12_1(
 input s,r ,
 input clk, reset,
 output reg q,

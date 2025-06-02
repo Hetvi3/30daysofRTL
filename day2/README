@@ -1,0 +1,18 @@
+# Day 2 - Full Adder
+
+## 📘 Description
+This module implements a Verilog-based design for **Full Adder**. It forms a key part of combinational logic understanding and is commonly used in digital circuit design.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 🧮 Logic Formula
+```
+Sum = A ^ B ^ Cin
+Carry = (A & B) | (B & Cin) | (A & Cin)
+```
+
+## 💬 Notes
+This design is part of the `30DaysOfRTL` Verilog series.  
+

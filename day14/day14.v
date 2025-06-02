@@ -1,5 +1,5 @@
 //synchronous d-flipfop
-module day15(
+module day14(
 input d,
 input clk, reset,
 output reg q,

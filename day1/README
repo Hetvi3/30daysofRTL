@@ -15,6 +15,3 @@ Testbench created to verify all input combinations and edge cases for `Half Adde
 Ensure:
 - Functional correctness
 - Valid waveform generation (optional)
-
-## 💬 Notes
-This design is part of the `30DaysOfRTL` Verilog series.  

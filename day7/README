@@ -1,0 +1,15 @@
+# Day 7 - Multiplexers (2:1, 4:1, 3:1)
+
+## 📘 Description
+This folder contains Verilog implementations of **2:1**, **4:1**, and **3:1 Multiplexers** including 4:1 using 2:1 structure.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Concept
+A multiplexer selects one of several input signals and forwards it to a single output line.
+
+## 💬 Notes
+Helps reinforce data routing concepts in hardware design.
+ 

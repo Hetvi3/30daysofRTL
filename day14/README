@@ -1,0 +1,14 @@
+# Day 14 - D Flip-Flop (Synchronous & Asynchronous)
+
+## 📘 Description
+Implements **D Flip-Flops** in both synchronous and asynchronous variants.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Concept
+Captures the value of `D` on the clock edge and stores it.
+
+## 💬 Notes
+Most commonly used flip-flop in design of registers and memory elements.

@@ -1,0 +1,16 @@
+# Day 8 - Demultiplexers (1:2, 1:4)
+
+## 📘 Description
+Verilog implementation of **1:2** and **1:4 Demultiplexers**, including 1:4 built using two 1:2 DEMUX blocks.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Concept
+Demultiplexer routes a single input to one of many outputs using selection lines.
+
+## 💬 Notes
+Key for understanding reverse routing compared to MUX.
+
+

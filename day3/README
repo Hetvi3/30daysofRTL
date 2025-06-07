@@ -1,0 +1,18 @@
+# Day 3 - Half & Full Subtractor
+
+## 📘 Description
+This module contains Verilog designs for both **Half Subtractor** and **Full Subtractor** used in binary arithmetic operations.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 🧮 Logic Formula
+**Half Subtractor**:
+Diff = A ^ B
+Borrow = ~A & B
+
+**Full Subtractor**:
+Diff = A ^ B ^ Bin
+Borrow = (A & B) | ((A ^ B) & Bin)
+

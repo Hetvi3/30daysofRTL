@@ -1,0 +1,14 @@
+# Day 13 - JK Flip-Flop (Synchronous & Asynchronous)
+
+## 📘 Description
+Verilog-based implementation of **JK Flip-Flops** with both synchronous and asynchronous resets.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Concept
+JK flip-flop eliminates invalid states in SR FF and supports toggling.
+
+## 💬 Notes
+Commonly used in counters and FSMs.

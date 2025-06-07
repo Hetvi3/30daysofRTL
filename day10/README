@@ -1,0 +1,14 @@
+# Day 10 - 3:8 Binary Decoder
+
+## 📘 Description
+Implements a **3:8 Binary Decoder** that activates one of 8 outputs based on a 3-bit binary input.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Concept
+Widely used in memory address decoding and control systems.
+
+## 💬 Notes
+Inverse of encoder logic and a critical part of addressable memory architecture.

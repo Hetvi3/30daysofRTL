@@ -1,0 +1,14 @@
+# Day 12 - SR Flip-Flop (Synchronous & Asynchronous)
+
+## 📘 Description
+Implements both **Synchronous** and **Asynchronous SR Flip-Flops** using Verilog.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Concept
+Stores one bit of data; async version reacts to input regardless of clock, sync waits for clock edge.
+
+## 💬 Notes
+A fundamental sequential circuit in memory and state design.

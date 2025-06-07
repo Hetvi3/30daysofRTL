@@ -13,6 +13,3 @@ Sum = A ^ B ^ Cin
 Carry = (A & B) | (B & Cin) | (A & Cin)
 ```
 
-## 💬 Notes
-This design is part of the `30DaysOfRTL` Verilog series.  
-

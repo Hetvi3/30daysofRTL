@@ -1,0 +1,11 @@
+# Day 4 - Ripple Carry Adder
+
+## 📘 Description
+Implements a 4-bit **Ripple Carry Adder** using Full Adders connected in series. This circuit is foundational in multi-bit binary addition.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Concept
+Carries propagate from one stage to the next, creating delay in large-bit-width circuits.

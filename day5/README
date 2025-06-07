@@ -1,0 +1,19 @@
+# Day 5 - Gray to Binary Converter
+
+## 📘 Description
+This module converts a **Gray code** input to its **Binary equivalent** using bitwise logic.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 🧮 Logic
+B[n-1] = G[n-1]
+B[i] = B[i+1] ^ G[i] (for i from n-2 to 0)
+
+csharp
+Copy
+Edit
+
+## 💬 Notes
+Gray code is used in communication and rotary encoders to avoid misread errors.

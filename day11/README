@@ -1,0 +1,14 @@
+# Day 11 - 4-bit Comparator
+
+## 📘 Description
+Design of a **4-bit Comparator** to compare two 4-bit numbers and provide outputs indicating `A > B`, `A < B`, or `A == B`.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Output
+- `GT`, `LT`, `EQ` flags
+
+## 💬 Notes
+Useful for decision-making circuits and control logic.

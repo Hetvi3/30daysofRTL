@@ -1,0 +1,14 @@
+# Day 9 - 8:3 Binary Encoder
+
+## 📘 Description
+Implements an **8:3 Binary Encoder** using Verilog HDL, converting 8 input lines into a 3-bit binary representation.
+
+## 🔧 Tools & Language
+- Verilog HDL
+- Simulated using ModelSim
+
+## 💡 Concept
+Used in digital systems where fewer output lines are needed to represent many inputs.
+
+## 💬 Notes
+Essential for reducing data width in digital communication.
